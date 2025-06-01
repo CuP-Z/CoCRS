@@ -1,0 +1,285 @@
+{
+    "movieMentions": {
+        "frozen 2 (2019)": "<http://dbpedia.org/resource/Snow_Queen_(2002_film)>",
+        "the kitchen (2019)": "<http://dbpedia.org/resource/The_Kitchen_(2019_film)>",
+        "widows (2018)": "<http://dbpedia.org/resource/Widows_(2018_film)>",
+        "chicago (2002)": "<http://dbpedia.org/resource/Chicago_(2002_film)>",
+        "hustlers (2019)": "<http://dbpedia.org/resource/Hustlers_(film)>",
+        "7 women (1966)": "<http://dbpedia.org/resource/7_Women>"
+    },
+    "movie_label": {
+        "<http://dbpedia.org/resource/Snow_Queen_(2002_film)>": "accept_rating_good",
+        "<http://dbpedia.org/resource/The_Kitchen_(2019_film)>": "accept_rating_good",
+        "<http://dbpedia.org/resource/Widows_(2018_film)>": "accept_rating_good",
+        "<http://dbpedia.org/resource/Chicago_(2002_film)>": "accept_rating_good",
+        "<http://dbpedia.org/resource/Hustlers_(film)>": "accept_rating_good",
+        "<http://dbpedia.org/resource/7_Women>": "accept_rating_good"
+    },
+    "messages": [
+        {
+            "text": "Hello! How're you today?",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I'm doing fantastic!",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "Great! What was the last movie you watched?",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "Frozen 2 in theaters",
+            "role": "SEEKER",
+            "movie": [
+                "Frozen 2 (2019)"
+            ],
+            "entity_link": [
+                "<http://dbpedia.org/resource/Theatre>"
+            ],
+            "entity_name": [
+                "theaters"
+            ],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "Did you enjoy it? What was your favorite part?",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "It was definitely a great family film! My favorite part was when Krystoff was singing his solo part and it sounded like an 80's ballad. It was hilarious",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [
+                "<http://dbpedia.org/resource/Singing>"
+            ],
+            "entity_name": [
+                "singing"
+            ],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "Oh my goodness, that sounds like a really fun time! I really liked the first one, I haven't gotten around to seeing the second one yet! Was there anything you disliked?",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I can't recall any parts that i disliked actually. You should check it out especially if you have small children.",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "How rare is that! I'll definitely have to check it out then! I'm a huge fan of Disney myself :)",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I'm easy to please when it comes to movies. I love Disney as well. We even have the new app and I've been binge watching all of the vault classics.\\",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "Oh gosh that's so awesome, I've been looking into getting that as well! Do you like any other genres? I'm a huge comedy fan myself.",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [
+                "<http://dbpedia.org/resource/Comedy>"
+            ],
+            "entity_name": [
+                "comedy"
+            ],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I do in fact, Another movie I just watched was The Kitchen. Based off of three women who have husbands in Irish mafia. Such a great film also. Do you know of any other movies similar to that?",
+            "role": "SEEKER",
+            "movie": [
+                "The Kitchen (2019)"
+            ],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [
+                "<http://dbpedia.org/resource/The_Kitchen_(2019_film)>"
+            ],
+            "movie_name": [
+                "The Kitchen"
+            ]
+        },
+        {
+            "text": "That sounds really good! If you like movies about women and crime, you might like Widows! It's set in contemporary Chicago. Four women are left with their husband's massive debt after they all mysteriously die from criminal activities. They have to take matters into their own hands and do things on their own terms! Would you be interested in that?",
+            "role": "RECOMMENDER",
+            "movie": [
+                "Widows (2018)",
+                "Chicago (2002)"
+            ],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [
+                "<http://dbpedia.org/resource/Widows_(2018_film)>",
+                "<http://dbpedia.org/resource/Chicago_(2002_film)>"
+            ],
+            "movie_name": [
+                "Widows",
+                "Chicago"
+            ]
+        },
+        {
+            "text": "Yes! That sounds really good! Thank you! I accept your recommendation!",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I really like a lot of different crime movies like that and women empowerment!",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I love a movie with a strong female lead for sure. Any other recommendations?",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "Hmm, I would say that the movie Hustlers may also interest you! It depicts a band of women that scheme and trick Wall Street men out of money! It has a lot of big name stars including J-Lo, Lizzo, Cardi B and Lili Reinhart!",
+            "role": "RECOMMENDER",
+            "movie": [
+                "Hustlers (2019)"
+            ],
+            "entity_link": [
+                "<http://dbpedia.org/resource/Jennifer_Lopez>",
+                "<http://dbpedia.org/resource/Lizzo>",
+                "<http://dbpedia.org/resource/Cardi_B>",
+                "<http://dbpedia.org/resource/Lili_Reinhart>"
+            ],
+            "entity_name": [
+                "J-Lo",
+                "Lizzo",
+                "Cardi B",
+                "Lili Reinhart"
+            ],
+            "movie_link": [
+                "<http://dbpedia.org/resource/Hustlers_(film)>"
+            ],
+            "movie_name": [
+                "Hustlers"
+            ]
+        },
+        {
+            "text": "Oh wow, Cardi B in a movie haha! I'll check that one out too!",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [
+                "<http://dbpedia.org/resource/Cardi_B>"
+            ],
+            "entity_name": [
+                "Cardi B"
+            ],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I know, right? It also has KeKe Palmer and Julia Stiles as well. But based upon your interest in The Kitchen, I think Widows might be the most similar! Personally, I just love watching downtrodden women taking their lives back, to be honest. So often women are forced to be in submissive roles, so it's cool to see women kicking butt!",
+            "role": "RECOMMENDER",
+            "movie": [
+                "The Kitchen (2019)",
+                "Widows (2018)",
+                "7 Women (1966)"
+            ],
+            "entity_link": [
+                "<http://dbpedia.org/resource/Keke_Palmer>",
+                "<http://dbpedia.org/resource/Julia_Stiles>"
+            ],
+            "entity_name": [
+                "KeKe Palmer",
+                "Julia Stiles"
+            ],
+            "movie_link": [
+                "<http://dbpedia.org/resource/The_Kitchen_(2019_film)>",
+                "<http://dbpedia.org/resource/Widows_(2018_film)>",
+                "<http://dbpedia.org/resource/7_Women>"
+            ],
+            "movie_name": [
+                "The Kitchen",
+                "Widows",
+                "7 Women"
+            ]
+        },
+        {
+            "text": "Yes! I completely agree! I loved your recommendations and I will most certainly check them out! Thank you!",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "I appreciate you accepting the recommendations, and I hope you have a lovely day!:)",
+            "role": "RECOMMENDER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        },
+        {
+            "text": "You as well!",
+            "role": "SEEKER",
+            "movie": [],
+            "entity_link": [],
+            "entity_name": [],
+            "movie_link": [],
+            "movie_name": []
+        }
+    ]
+}
